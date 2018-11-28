@@ -1,6 +1,6 @@
 //
-//  ANPhotoBrower.h
-//  ANPhotoBrower
+//  ANPhotoBrowser.h
+//  ANPhotoBrowser
 //
 //  Created by 刘栋 on 2018/11/28.
 //  Copyright © 2018 anotheren.com. All rights reserved.
