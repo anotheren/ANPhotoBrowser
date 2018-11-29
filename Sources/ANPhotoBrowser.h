@@ -20,12 +20,12 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for ANPhotoBrower.
-FOUNDATION_EXPORT double ANPhotoBrowerVersionNumber;
+//! Project version number for ANPhotoBrowser.
+FOUNDATION_EXPORT double ANPhotoBrowserVersionNumber;
 
-//! Project version string for ANPhotoBrower.
-FOUNDATION_EXPORT const unsigned char ANPhotoBrowerVersionString[];
+//! Project version string for ANPhotoBrowser.
+FOUNDATION_EXPORT const unsigned char ANPhotoBrowserVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <ANPhotoBrower/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <ANPhotoBrowser/PublicHeader.h>
 
 
