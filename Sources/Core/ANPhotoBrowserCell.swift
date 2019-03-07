@@ -102,13 +102,8 @@ open class ANPhotoBrowserCell: UICollectionViewCell {
             return CGSize.zero
         }
         let width = scrollView.bounds.width
-        if image.size.width > image.size.height {
-            let scale = image.size.height / image.size.width
-            return CGSize(width: width, height: scale * width)
-        } else {
-            let scale = image.size.width / image.size.height
-            return CGSize(width: width * scale, height: scrollView.bounds.height)
-        }
+        let scale = image.size.height / image.size.width
+        return CGSize(width: width, height: scale * width)
     }
 
     /// 取图片适屏frame
