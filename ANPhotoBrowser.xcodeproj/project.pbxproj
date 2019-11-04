@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0950DFD21AE831F00C0E354 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0950DFC21AE831F00C0E354 /* Kingfisher.framework */; };
+		2272C490FB025523D0DDDB87 /* Pods_ANPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA7FAB492E41BA2436DEAA1 /* Pods_ANPhotoBrowser.framework */; };
 		A0950E1021AE834400C0E354 /* ANProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0950DFE21AE834300C0E354 /* ANProgressView.swift */; };
 		A0950E1121AE834400C0E354 /* ANPageControlPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0950DFF21AE834300C0E354 /* ANPageControlPlugin.swift */; };
 		A0950E1221AE834400C0E354 /* ANPhotoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0950E0021AE834300C0E354 /* ANPhotoLoader.swift */; };
@@ -31,10 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48950244FBBB0D1EE6458D65 /* Pods-ANPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANPhotoBrowser.release.xcconfig"; path = "Target Support Files/Pods-ANPhotoBrowser/Pods-ANPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		9F69E569B4251F57FF8E9966 /* Pods-ANPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANPhotoBrowser.debug.xcconfig"; path = "Target Support Files/Pods-ANPhotoBrowser/Pods-ANPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		A0950DF721AE819400C0E354 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A0950DF821AE819400C0E354 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A0950DF921AE81AB00C0E354 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		A0950DFC21AE831F00C0E354 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		A0950DFE21AE834300C0E354 /* ANProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANProgressView.swift; sourceTree = "<group>"; };
 		A0950DFF21AE834300C0E354 /* ANPageControlPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANPageControlPlugin.swift; sourceTree = "<group>"; };
 		A0950E0021AE834300C0E354 /* ANPhotoLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANPhotoLoader.swift; sourceTree = "<group>"; };
@@ -57,6 +57,7 @@
 		A097326621AE7E7400FC7918 /* ANPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A097326921AE7E7400FC7918 /* ANPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANPhotoBrowser.h; sourceTree = "<group>"; };
 		A097326A21AE7E7400FC7918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA7FAB492E41BA2436DEAA1 /* Pods_ANPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0950DFD21AE831F00C0E354 /* Kingfisher.framework in Frameworks */,
+				2272C490FB025523D0DDDB87 /* Pods_ANPhotoBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +75,7 @@
 		A0950DFB21AE831F00C0E354 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0950DFC21AE831F00C0E354 /* Kingfisher.framework */,
+				AFA7FAB492E41BA2436DEAA1 /* Pods_ANPhotoBrowser.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,10 +162,10 @@
 			children = (
 				A0950DF821AE819400C0E354 /* LICENSE */,
 				A0950DF721AE819400C0E354 /* README.md */,
-				A0950DF921AE81AB00C0E354 /* Cartfile */,
 				A097326821AE7E7400FC7918 /* Sources */,
 				A097326721AE7E7400FC7918 /* Products */,
 				A0950DFB21AE831F00C0E354 /* Frameworks */,
+				A7EE412088B28E8D792F04E7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +192,15 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		A7EE412088B28E8D792F04E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F69E569B4251F57FF8E9966 /* Pods-ANPhotoBrowser.debug.xcconfig */,
+				48950244FBBB0D1EE6458D65 /* Pods-ANPhotoBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -209,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A097326E21AE7E7400FC7918 /* Build configuration list for PBXNativeTarget "ANPhotoBrowser" */;
 			buildPhases = (
+				761F7394829B0AEE01A35F5B /* [CP] Check Pods Manifest.lock */,
 				A097326121AE7E7400FC7918 /* Headers */,
 				A097326221AE7E7400FC7918 /* Sources */,
 				A097326321AE7E7400FC7918 /* Frameworks */,
@@ -265,6 +276,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		761F7394829B0AEE01A35F5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ANPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A097326221AE7E7400FC7918 /* Sources */ = {
@@ -420,6 +456,7 @@
 		};
 		A097326F21AE7E7400FC7918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F69E569B4251F57FF8E9966 /* Pods-ANPhotoBrowser.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -430,10 +467,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -453,6 +487,7 @@
 		};
 		A097327021AE7E7400FC7918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48950244FBBB0D1EE6458D65 /* Pods-ANPhotoBrowser.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -463,10 +498,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
