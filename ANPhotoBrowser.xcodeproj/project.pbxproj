@@ -33,6 +33,7 @@
 /* Begin PBXFileReference section */
 		48950244FBBB0D1EE6458D65 /* Pods-ANPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANPhotoBrowser.release.xcconfig"; path = "Target Support Files/Pods-ANPhotoBrowser/Pods-ANPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		9F69E569B4251F57FF8E9966 /* Pods-ANPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANPhotoBrowser.debug.xcconfig"; path = "Target Support Files/Pods-ANPhotoBrowser/Pods-ANPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		A00DB31923701DCB009B6505 /* ANPhotoBrowser.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ANPhotoBrowser.podspec; sourceTree = "<group>"; };
 		A0950DF721AE819400C0E354 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A0950DF821AE819400C0E354 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A0950DFE21AE834300C0E354 /* ANProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANProgressView.swift; sourceTree = "<group>"; };
@@ -162,6 +163,7 @@
 			children = (
 				A0950DF821AE819400C0E354 /* LICENSE */,
 				A0950DF721AE819400C0E354 /* README.md */,
+				A00DB31923701DCB009B6505 /* ANPhotoBrowser.podspec */,
 				A097326821AE7E7400FC7918 /* Sources */,
 				A097326721AE7E7400FC7918 /* Products */,
 				A0950DFB21AE831F00C0E354 /* Frameworks */,
@@ -476,6 +478,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.ANPhotoBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -507,6 +510,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.ANPhotoBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
